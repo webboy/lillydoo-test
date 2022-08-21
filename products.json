@@ -1,0 +1,22 @@
+{
+  "1a":{
+    "name":"Mars",
+    "price":"2.49",
+    "stock":12
+  },
+  "1b":{
+    "name":"Coke",
+    "price":"1.49",
+    "stock":19
+  },
+  "2a":{
+    "name":"M&M's",
+    "price":"1.19",
+    "stock":17
+  },
+  "2b":{
+    "name":"Pepsi",
+    "price":"1.79",
+    "stock":5
+  }
+}

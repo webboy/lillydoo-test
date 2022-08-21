@@ -1,0 +1,16 @@
+#!/usr/bin/env php
+<?php
+declare(strict_types=1);
+
+require __DIR__ . '/../vendor/autoload.php';
+
+use App\Command\PurchaseCommand;
+use App\Command\ShowStockCommand;
+use Symfony\Component\Console\Application;
+
+$application = new Application();
+
+// Register commands
+$application->add(new PurchaseCommand());
+$application->add(new ShowStockCommand());
+$application->run();
